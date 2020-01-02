@@ -1,0 +1,92 @@
+@media only screen and (min-width:320px) and (max-width: 767px){
+	
+	.header{
+		border-radius: 0px;
+	}
+
+  .header-left-intro{display: none;}
+
+  .header-left-title{
+  	margin-bottom: 20px;
+  }
+
+  .registration-info{
+  	padding-bottom: 85px;
+  }
+
+  .box-contact{
+  	display: block;
+  }
+
+  .contact-phone{
+  	width: 100%;
+  	padding-right: 0px;
+  }
+
+  .contact-email{
+  	width: 100%;
+  	padding-left: 0px;
+  }
+
+  .box-bottom{
+  	display: block;
+  	position: relative;
+  }
+
+  .box-area{
+  	padding-right: 0px;
+  	width: 100%;
+  }
+
+  .btn-registration{
+  	width: 60%;
+    padding-left: 0px;
+    position: absolute;
+    left: 20%;
+    margin-top: 20px;
+  }
+
+
+  .contact .img-footer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact .contact-footer{
+    width: 100%;
+    margin: 0px;
+  }
+
+  .item-service{
+    width: 33%;
+    margin-bottom: 15px;
+  }
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+.header{
+		border-radius: 0px;
+	}
+
+.header-left-intro{
+	width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .header-left-title{
+  	display: flex;
+  	justify-content: center;
+ }
+
+  .contact{
+  	flex-wrap: nowrap;
+  }
+
+}
+@media only screen and (min-width : 993px) and (max-width : 1300px){
+.contact{
+  	flex-wrap: nowrap;
+  }
+}
